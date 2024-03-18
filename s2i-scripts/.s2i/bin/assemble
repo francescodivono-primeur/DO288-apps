@@ -11,8 +11,8 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 cp -Rf /tmp/src/*.html ./
 DATE=$(date "+%Y-%m-%d")
-echo "Page build on $DATE"
-echo "la frase hce midanno"
+echo "Page build on $DATE" >> ./info.html
+echo "la frase hce midanno" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
